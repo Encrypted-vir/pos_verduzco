@@ -1,5 +1,5 @@
-import PendingPage from "../../components/layout/PendingPage";
+import ServiciosView from "../../components/servicios/ServiciosView";
 
 export default function ServiciosPage() {
-    return <PendingPage title="Servicios" icon="⚙️" />;
+    return <ServiciosView />;
 }
