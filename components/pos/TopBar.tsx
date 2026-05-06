@@ -1,6 +1,6 @@
 "use client";
 import styles from "./TopBar.module.css";
-import SearchBar from "@/components/ui/SearchBar";
+import SearchBar from "../ui/SearchBar";
 
 function formatDate(): string {
     const now = new Date();

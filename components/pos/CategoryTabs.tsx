@@ -1,6 +1,6 @@
 "use client";
 import styles from "./CategoryTabs.module.css";
-import { CategoryTab } from "@/types/pos";
+import { CategoryTab } from "../../types/pos";
 
 const TABS: CategoryTab[] = ["Más vendidos", "Favoritos", "Granel"];
 

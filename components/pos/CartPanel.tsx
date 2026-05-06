@@ -2,7 +2,7 @@
 import styles from "./CartPanel.module.css";
 import CartTab from "./CartTab";
 import CartActions from "./CartActions";
-import { CartItem } from "@/types/pos";
+import { CartItem } from "../../types/pos";
 
 interface CartPanelProps {
     activeCart: number;

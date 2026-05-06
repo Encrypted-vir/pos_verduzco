@@ -1,7 +1,7 @@
 "use client";
 import styles from "./ProductGrid.module.css";
 import ProductCard from "./ProductCard";
-import { Product } from "@/types/pos";
+import { Product } from "../../types/pos";
 
 interface ProductGridProps {
     products: Product[];
