@@ -19,8 +19,6 @@ export default function TopBar() {
 
             <div className={styles.meta}>
                 <span className={styles.datetime}>{formatDate()}</span>
-                <span className={styles.separator}>🖥️</span>
-                <span className={styles.sessionId}>ID 265037</span>
             </div>
 
             <div className={styles.actions}>

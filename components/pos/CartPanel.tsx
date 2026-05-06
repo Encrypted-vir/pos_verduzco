@@ -27,16 +27,6 @@ export default function CartPanel({
 
     return (
         <aside className={styles.panel}>
-            {/* Promo banner */}
-            <div className={styles.promoBanner}>
-                <div className={styles.promoContent}>
-                    <span className={styles.promoTitle}>¡Hazlo fácil, chatea con nosotros!</span>
-                    <span className={styles.promoSub}>Es rápido y práctico.</span>
-                    <span className={styles.promoSub}>Estamos para ayudarte. 📱 81 3551 5282</span>
-                </div>
-                <div className={styles.promoQr}>QR</div>
-            </div>
-
             {/* Cart tabs */}
             <CartTab activeCart={activeCart} totalCarts={3} onChange={onChangeCart} />
 
