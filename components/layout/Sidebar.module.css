@@ -1,0 +1,76 @@
+.sidebar {
+    width: var(--sidebar-width);
+    height: 100vh;
+    background: var(--red);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    flex-shrink: 0;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+}
+
+.logo {
+    width: 100%;
+    padding: 14px 8px;
+    background: var(--red-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoText {
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+}
+
+.nav {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0;
+    overflow-y: auto;
+}
+
+.navItem,
+.closeBtn {
+    width: 100%;
+    padding: 10px 4px;
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.85);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    transition: background 0.15s;
+}
+
+.navItem:hover,
+.closeBtn:hover {
+    background: rgba(0, 0, 0, 0.15);
+    color: white;
+}
+
+.icon {
+    font-size: 18px;
+    line-height: 1;
+}
+
+.label {
+    font-size: 9px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.closeBtn {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 12px 4px;
+    color: rgba(255, 255, 255, 0.7);
+}

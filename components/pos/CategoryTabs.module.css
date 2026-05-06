@@ -1,0 +1,121 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px 0;
+    background: white;
+    border-bottom: 1px solid var(--gray-200);
+    flex-shrink: 0;
+}
+
+.tabs {
+    display: flex;
+    gap: 4px;
+}
+
+.tab {
+    padding: 7px 16px;
+    border: 1px solid var(--gray-300);
+    border-radius: 20px;
+    background: white;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--gray-600);
+    transition: all 0.15s;
+    margin-bottom: -1px;
+}
+
+.tab:hover {
+    border-color: var(--red);
+    color: var(--red);
+}
+
+.tab.active {
+    background: var(--red);
+    border-color: var(--red);
+    color: white;
+}
+
+.addBtn {
+    margin-left: auto;
+    width: 32px;
+    height: 32px;
+    border: 2px solid var(--gray-300);
+    border-radius: 8px;
+    background: white;
+    font-size: 20px;
+    color: var(--gray-600);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    font-weight: 300;
+    transition: all 0.15s;
+    margin-bottom: 6px;
+}
+
+.addBtn:hover {
+    border-color: var(--red);
+    color: var(--red);
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px 0;
+    background: white;
+    border-bottom: 1px solid var(--gray-200);
+    flex-shrink: 0;
+}
+
+.tabs {
+    display: flex;
+    gap: 4px;
+}
+
+.tab {
+    padding: 7px 16px;
+    border: 1px solid var(--gray-300);
+    border-radius: 20px;
+    background: white;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--gray-600);
+    transition: all 0.15s;
+    margin-bottom: -1px;
+}
+
+.tab:hover {
+    border-color: var(--red);
+    color: var(--red);
+}
+
+.tab.active {
+    background: var(--red);
+    border-color: var(--red);
+    color: white;
+}
+
+.addBtn {
+    margin-left: auto;
+    width: 32px;
+    height: 32px;
+    border: 2px solid var(--gray-300);
+    border-radius: 8px;
+    background: white;
+    font-size: 20px;
+    color: var(--gray-600);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    font-weight: 300;
+    transition: all 0.15s;
+    margin-bottom: 6px;
+}
+
+.addBtn:hover {
+    border-color: var(--red);
+    color: var(--red);
+}
